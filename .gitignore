@@ -1,0 +1,5 @@
+#ignore content, which can be obtained from mapbase on moddb
+content/**
+src/.vs/
+src/.vs/*
+src/everything.sln
