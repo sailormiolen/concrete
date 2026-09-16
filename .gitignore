@@ -3,3 +3,4 @@ content/**
 src/.vs/
 src/.vs/*
 src/everything.sln
+src/UpgradeLog.htm
