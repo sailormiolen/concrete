@@ -4,3 +4,62 @@ src/.vs/
 src/.vs/*
 src/everything.sln
 src/UpgradeLog.htm
+
+## The below sections of the .gitignore were obtained from the .gitignore of
+# https://github.com/mapbase-source/source-sdk-2013/
+
+## Visual Studio
+*.suo
+*.user
+*.sln.docstates
+*.obj
+*.pch
+*.tlog
+*.log
+*.scc
+*.exp
+*.ilk
+*.lastbuildstate
+vc100.pdb
+ipch
+*.sdf
+*.opensdf
+*.idb
+*.vcxproj
+*.sln
+*.vcxproj.FileListAbsolute.txt
+*.pdb
+
+# Unnecessary files
+*.lib
+*.filters
+*.vpc_crc
+*.sentinel
+*.recipe
+
+# Backup files
+*.bak
+
+# Build folders
+sp/src/.vs/
+sp/src/game/client/Debug_mod_episodic/
+sp/src/game/client/Debug_mod_hl2/
+sp/src/game/client/Release_mod_episodic/
+sp/src/game/client/Release_mod_hl2/
+sp/src/game/server/Debug_mod_episodic/
+sp/src/game/server/Debug_mod_hl2/
+sp/src/game/server/Release_mod_episodic/
+sp/src/game/server/Release_mod_hl2/
+sp/src/*/Debug/
+sp/src/*/Release/
+sp/game/*.dll
+sp/game/*.pdb
+sp/game/*.exe
+sp/src/utils/*.dll
+sp/src/utils/*.pdb
+sp/src/utils/*.exe
+sp/src/utils/*.res
+sp/src/materialsystem/*.dll
+sp/src/materialsystem/*.pdb
+sp/src/vgui2/*.dll
+sp/src/vgui2/*.pdb
